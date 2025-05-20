@@ -1,0 +1,34 @@
+.blog-detail__content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.blog-detail__title {
+  font-size: 2rem;
+  color: #a23c32;
+  margin-bottom: 0.5rem;
+}
+
+.blog-detail__meta {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.blog-detail__text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.blog-detail__notfound {
+  color: #a23c32;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}

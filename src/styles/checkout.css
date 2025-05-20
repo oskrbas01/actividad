@@ -1,0 +1,47 @@
+.checkout__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.checkout__title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.checkout__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.checkout__table th,
+.checkout__table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.checkout__table th:nth-child(2),
+.checkout__table td:nth-child(2) {
+  text-align: center;
+}
+
+.checkout__table th:nth-child(3),
+.checkout__table td:nth-child(3) {
+  text-align: right;
+}
+
+.checkout__total {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.checkout__empty {
+  font-style: italic;
+  color: #777;
+}
+
+
