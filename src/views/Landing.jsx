@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ButtonPrimary from '../components/ButtonPrimary';
-import '../styles/landing';
+import '../styles/landing.css';
 
 const Landing = () => {
   const navigate = useNavigate();
